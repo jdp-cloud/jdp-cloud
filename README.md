@@ -12,7 +12,7 @@ My 15+ years in regulated life-sciences operations (risk management, audit readi
 
 | | Project | In one line |
 | --- | --- | --- |
-| 🌏 | [**Multi-Region Hub-and-Spoke SIEM**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/03-multi-region-siem-hub-spoke) | Seven-region AWS Transit Gateway network with centralized Loki/Grafana logging, no SSH (Session Manager only), IMDSv2 and checksum-verified downloads. Terraform modules replaced six copy-pasted region files. |
+| 🌏 | [**Multi-Region Hub-and-Spoke SIEM**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/03-multi-region-hub-and-spoke-web-application-with-centralized-siem) | Seven-region AWS Transit Gateway network with centralized Loki/Grafana logging, no SSH (Session Manager only), IMDSv2 and checksum-verified downloads. Terraform modules replaced six copy-pasted region files. Deployed, verified, destroyed and costed: screenshots and a cost breakdown are in the project. |
 | 🔁 | [**Argo CD GitOps and RBAC**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/02-argocd-gitops) | Drift self-healing, per-environment `AppProject` boundaries, and a restricted role that is denied prod sync while admin succeeds. Real allow and deny tests. |
 | ☸️ | [**Kubernetes Stateful Application**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/01-kubernetes-stateful-application) | Splunk as a StatefulSet with a non-root security context and a runtime-created secret. Data proven to survive pod deletion. |
 
