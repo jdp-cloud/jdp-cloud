@@ -13,6 +13,7 @@ My 15+ years in regulated life-sciences operations (risk management, audit readi
 | | Project | In one line |
 | --- | --- | --- |
 | 🌏 | [**Multi-Region Hub-and-Spoke SIEM**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/03-multi-region-hub-and-spoke-web-application-with-centralized-siem) | Seven-region AWS Transit Gateway network with centralized Loki/Grafana logging, no SSH (Session Manager only), IMDSv2 and checksum-verified downloads. Terraform modules replaced six copy-pasted region files. Deployed, verified, destroyed and costed: screenshots and a cost breakdown are in the project. |
+| 🛡️ | [**WAF to Bedrock to SOAR Pipeline**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/04-waf-bedrock-threat-correlation-and-soar-pipeline) | AWS WAF logs become scored findings and incidents through Lambda and EventBridge. Amazon Bedrock only explains: deterministic code decides, and containment is never automated. Cognito MFA and group-based access protect the API. 75 Terraform resources, deployed and destroyed. Based on a class group lab, with my changes and limitations documented. |
 | 🔁 | [**Argo CD GitOps and RBAC**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/02-argocd-gitops) | Drift self-healing, per-environment `AppProject` boundaries, and a restricted role that is denied prod sync while admin succeeds. Real allow and deny tests. |
 | ☸️ | [**Kubernetes Stateful Application**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/01-kubernetes-stateful-application) | Splunk as a StatefulSet with a non-root security context and a runtime-created secret. Data proven to survive pod deletion. |
 
@@ -20,7 +21,7 @@ My 15+ years in regulated life-sciences operations (risk management, audit readi
 
 | Area | Tools |
 | --- | --- |
-| Cloud | AWS (Transit Gateway, VPC, ALB, SSM Session Manager, IAM) |
+| Cloud | AWS (Transit Gateway, VPC, ALB, SSM Session Manager, IAM, WAF, Lambda, EventBridge, Cognito, Bedrock) |
 | IaC & CI/CD | Terraform (modules, provider aliases, remote state) · Jenkins · Argo CD |
 | Kubernetes | Minikube · StatefulSets · RBAC · AppProject policy |
 | Security & observability | Least-privilege network design · IMDSv2 · Splunk · Grafana Loki · Promtail |
