@@ -2,7 +2,7 @@
 
 **Cloud Security Engineer and AI Platform Engineer.** I build Terraform-managed AWS and Kubernetes environments that are secure by default, and I prove each one works with real evidence: command output, screenshots and deliberate allow-and-deny tests.
 
-My 15+ years in regulated life-sciences operations (risk management, audit readiness, vendor oversight) shaped how I build: every control is documented and every claim is tested. I'm AWS-certified in both solutions architecture and machine learning, and OCI-certified in generative AI.
+My 10+ years in regulated life-sciences operations (risk management, audit readiness, vendor oversight) shaped how I build: every control is documented and every claim is tested. I'm AWS-certified in both solutions architecture and machine learning, and OCI-certified in generative AI.
 
 📂 **[Cloud Engineering Portfolio →](https://github.com/jdp-cloud/cloud-engineering-portfolio)** · 💼 [LinkedIn](https://www.linkedin.com/in/jacques-payne-1ba7b43) · 📫 <jacques.payne@gmail.com> · 🏢 [Kumo Solutions](https://github.com/jdp-kumo)
 
@@ -21,7 +21,7 @@ My 15+ years in regulated life-sciences operations (risk management, audit readi
 
 | Area | Tools |
 | --- | --- |
-| Cloud | AWS (Transit Gateway, VPC, ALB, SSM Session Manager, IAM, WAF, Lambda, EventBridge, Cognito, Bedrock) |
+| Cloud | AWS (Transit Gateway, VPC, ALB, SSM Session Manager, IAM, WAF, Lambda, EventBridge, Cognito, Bedrock) · GCP · HA VPN · BGP |
 | IaC & CI/CD | Terraform (modules, provider aliases, remote state) · Jenkins · Argo CD |
 | Kubernetes | Minikube · StatefulSets · RBAC · AppProject policy |
 | Security & observability | Least-privilege network design · IMDSv2 · Splunk · Grafana Loki · Promtail |
