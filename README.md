@@ -34,6 +34,8 @@ Six projects, each with its own README, evidence and stated limitations.
 
 ### 🎓 Certifications
 
+[![AWS Certified Solutions Architect – Associate, issued Apr 2025, valid through Apr 2028](https://img.shields.io/badge/AWS%20Certified-Solutions%20Architect%20Associate-FF9900)](https://www.credly.com/badges/3a8289fa-4c39-4954-801f-9a3079484eeb/public_url) [![AWS Certified Machine Learning Engineer – Associate, issued Nov 2025, valid through Nov 2028](https://img.shields.io/badge/AWS%20Certified-Machine%20Learning%20Engineer%20Associate-FF9900)](https://www.credly.com/badges/82c5d1cf-0482-4426-92ef-51bdb033300c) [![Oracle Cloud Infrastructure 2025 Certified Generative AI Professional, issued Dec 2025, valid through Dec 2027](https://img.shields.io/badge/Oracle%20Certified-OCI%202025%20Generative%20AI%20Professional-C74634)](https://catalog-education.oracle.com/pls/certview/sharebadge?id=4C8A3CBFEFCE3AB5BB5403DB801A12A274F898F40B5F9C933545107C7A0C5033)
+
 - AWS Certified Solutions Architect – Associate
 - AWS Certified Machine Learning Engineer – Associate
 - Oracle Cloud Infrastructure 2025 Certified Generative AI Professional
