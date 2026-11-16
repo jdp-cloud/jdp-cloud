@@ -1,21 +1,22 @@
 # Hi, I'm Jacques Payne 👋
 
-**Cloud Security Engineer and AI Platform Engineer.** I build Terraform-managed AWS, GCP and Kubernetes environments that are secure by default, and I prove each one works with real evidence: command output, screenshots, pipeline runs and deliberate allow-and-deny tests.
+Clinical operations leader (former Associate Director) with 15+ years running Phase I–III trials for sponsors and CROs, now building secure cloud and AI automation for clinical research.
 
-My 10+ years in regulated life-sciences clinical operations (risk management, audit readiness, vendor oversight) shaped how I build: every control is documented and every claim is tested. I'm AWS-certified in both solutions architecture and machine learning, and OCI-certified in generative AI.
+I've led global Phase III oncology trials, first-in-human studies and CRO oversight, and kept trials inspection-ready. Since 2024 I've built hands-on cloud, AI and security skills, and I use them to automate the oversight work I used to do by hand: eTMF completeness checks, study metrics and risk-based monitoring. Every project here runs on synthetic data and shows its evidence: test results, pipeline runs, screenshots and stated limitations.
 
-📍 Based in Little Rock, AR · open to fully remote roles in cloud security, platform engineering and DevSecOps
+AWS Certified Solutions Architect – Associate · AWS Certified Machine Learning Engineer – Associate · OCI 2025 Generative AI Professional
 
-📂 **[Cloud Engineering Portfolio →](https://github.com/jdp-cloud/cloud-engineering-portfolio)** · 💼 [LinkedIn](https://www.linkedin.com/in/jacques-payne-1ba7b43) · 📫 <jacques.payne@gmail.com> · 🏢 [Kumo Solutions](https://github.com/jdp-kumo)
+📍 Little Rock, AR · open to fully remote clinical operations roles (Associate Director, Study Lead, Senior CTM) and clinical systems / cloud automation roles
 
----
+📂 [Cloud Engineering Portfolio](https://github.com/jdp-cloud/cloud-engineering-portfolio) · 💼 [LinkedIn](https://www.linkedin.com/in/jacques-payne-1ba7b43) · 📫 jacques.payne@gmail.com
 
-### ⭐ Featured work
+## ⭐ Featured work
 
-Six projects, each with its own README, evidence and stated limitations.
+Eight projects, each with its own README, evidence and stated limitations.
 
 | | Project | In one line |
 | --- | --- | --- |
+| 📋 | [eTMF Inspection Readiness Checker](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/08-etmf-readiness-checker) | Checks a synthetic eTMF index against DIA TMF Reference Model rules and flags missing, expired and late documents by severity, with site, country and study readiness scores. Serverless on AWS (S3, Lambda, EventBridge) in Terraform, 17 passing tests. Built from my Merck eTMF inspection-readiness work. |
 | 🛡️ | [**WAF to Bedrock to SOAR Pipeline**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/04-waf-bedrock-threat-correlation-and-soar-pipeline) | AWS WAF logs become scored findings and incidents through Lambda and EventBridge. Amazon Bedrock only explains: deterministic code decides, and containment is never automated. Cognito MFA and group-based access protect the API. 75 Terraform resources, deployed and destroyed. Based on a class group lab, with my changes and limitations documented. |
 | 🔍 | [**Local DevSecOps Pipeline with Jenkins**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/06-jenkins-devsecops-ci-cd-pipeline) | A 12-stage Jenkins pipeline with SonarQube, gitleaks, Trivy and OWASP ZAP. One run was blocked by Trivy with 5 HIGH findings, and the fixed run passed all 12 stages on 2026-10-03. A rerun on 2026-10-04 was blocked by a new Trivy finding in the base image; after a Dockerfile fix it passed all 12 stages again ([details](https://github.com/jdp-cloud/cloud-engineering-portfolio/blob/main/projects/06-jenkins-devsecops-ci-cd-pipeline/evidence/base-image-fix-2026-10-04/README.md)). Local lab, deployed and torn down. Based on a class exercise. |
 | 🌏 | [**Multi-Region Hub-and-Spoke SIEM**](https://github.com/jdp-cloud/cloud-engineering-portfolio/tree/main/projects/03-multi-region-hub-and-spoke-web-application-with-centralized-siem) | Seven-region AWS Transit Gateway network with centralized Loki/Grafana logging, no SSH (Session Manager only), IMDSv2 and checksum-verified downloads. Terraform modules replaced six copy-pasted region files. Deployed, verified, destroyed and costed: screenshots and a cost breakdown are in the project. |
